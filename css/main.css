@@ -19,7 +19,7 @@
 }
 
 h1 {
-	color: #ed6810;
+    color: #ed6810;
 	font-family: "EB Garamond", serif;   
 	font-size: 38px;
     font-weight: 500px;
@@ -54,12 +54,12 @@ img {
     background-repeat: no-repeat;
     grid-column: 1/-1;
     height: 100%;
-    margin-top: 10px;
 }
 
 .hero-text p{
     text-align: center;
-    color: white;
+    color:white;
+    text-shadow: 0 2px rgb(66, 66, 65);
     background-color:rgba(206, 126, 14, 0.251);
     padding-left: 10px;
     padding-right: 10px;
