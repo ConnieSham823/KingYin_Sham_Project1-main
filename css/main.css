@@ -19,14 +19,12 @@
 }
 
 h1 {
-	margin: 1em 0 0.5em 0;
 	color: #ed6810;
 	font-family: "EB Garamond", serif;   
 	font-size: 38px;
-    font-weight: 800px;
+    font-weight: 500px;
     letter-spacing: -2px;
-	text-transform: uppercase;
-	text-shadow: 0 2px rgba(240, 170, 73), 0 3px #777;
+	text-shadow: 0 2px rgb(66, 66, 65), 0 3px #ffffff;
     text-align: center;
 }
 
@@ -49,3 +47,12 @@ img {
     margin-top: 20px;
 }
 
+
+.hero-image {
+    background-image: url("../images/main-hero.png");
+    grid-column: 1/-1;
+    margin-top: 20px;
+}
+
+.hero-text {
+}
