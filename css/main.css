@@ -26,6 +26,7 @@ h1 {
     letter-spacing: -2px;
 	text-shadow: 0 2px rgb(66, 66, 65), 0 3px #ffffff;
     text-align: center;
+    text-decoration:underline;
 }
 
 p {
@@ -50,9 +51,16 @@ img {
 
 .hero-image {
     background-image: url("../images/main-hero.png");
+    background-repeat: no-repeat;
     grid-column: 1/-1;
-    margin-top: 20px;
+    height: 100%;
+    margin-top: 10px;
 }
 
-.hero-text {
+.hero-text p{
+    text-align: center;
+    color: white;
+    background-color:rgba(206, 126, 14, 0.251);
+    padding-left: 10px;
+    padding-right: 10px;
 }
