@@ -38,10 +38,14 @@ p {
     font-family: "EB Garamond", serif;
     font-size: 22px;
     font-weight: 300;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 25px;
     color: #847d7d;
+}
+
+p span {
+    color: #ed6810;
 }
 
 article {
