@@ -22,17 +22,22 @@ h1 {
     color: #ed6810;
 	font-family: "EB Garamond", serif;   
 	font-size: 38px;
-    font-weight: 500px;
+    font-weight: 600;
     letter-spacing: -2px;
 	text-shadow: 0 2px rgb(66, 66, 65), 0 3px #ffffff;
     text-align: center;
     text-decoration:underline;
+    background-color: rgba(243, 239, 239, 0.267);
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 5px;
 }
 
 p {
     font-family: "EB Garamond", serif;
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 80;
     padding-left: 5px;
     padding-right: 5px;
     line-height: 25px;
@@ -43,24 +48,53 @@ article {
     grid-column: 1/-1;
 }
 
-img {
-    width: 100%;
-    margin-top: 20px;
-}
-
-
 .hero-image {
     background-image: url("../images/main-hero.png");
     background-repeat: no-repeat;
-    grid-column: 1/-1;
-    height: 100%;
+    margin-top: 20px;
 }
 
 .hero-text p{
     text-align: center;
     color:white;
     text-shadow: 0 2px rgb(66, 66, 65);
-    background-color:rgba(206, 126, 14, 0.251);
+    background-color:rgba(243, 239, 239, 0.267);
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.hero-text p span {
+    color: #ed6810;
+    text-shadow: 0 2px #ffffff;
+}
+
+h2 + p::first-letter {
+    color: white;
+    background-color:#ed6810;
+    padding: 15px 15px;
+    margin-right: 8px;
+    float: left;
+    font-size: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 rgb(66, 66, 65);
+}
+
+h3 + p::first-letter {
+    color: #ed6810;
+    font-size: 40px;
+}
+
+#ath-img {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center
+}
+
+#ath-img img {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    margin-top: 5px;
 }
